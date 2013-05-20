@@ -6,7 +6,7 @@ class Post extends AppModel {
   public $name = 'Post';
 
 	public $validate = array(
-		'title' => array(
+		'name' => array(
 			'notEmpty' => array ( 
 				'rule' => 'notEmpty',
 				'message' => 'Please Provide a Title.',
