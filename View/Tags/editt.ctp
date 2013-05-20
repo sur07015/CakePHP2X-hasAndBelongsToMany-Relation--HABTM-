@@ -3,7 +3,7 @@
   <fieldset>
 		<legend><?php echo __('Edit Tag'); ?></legend>
 		<?php echo $this->Form->input('id'); ?>
-		<?php echo $this->Form->input('title'); ?>
+		<?php echo $this->Form->input('label'); ?>
 	</fieldset>
 	
 	<div class="buttons">
